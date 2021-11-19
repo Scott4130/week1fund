@@ -218,12 +218,49 @@ if(num % 3 == 0 || num % 5 == 0){
 //
 //
 //
-let num = 1337
-let numString = num.toString(); 
-let reverseNumString = numString.split('').reverse().join('');
+// let num = 1337
+// let numString = num.toString(); 
+// let reverseNumString = numString.split('').reverse().join('');
 
-if (num == reverseNumString){
-    console.log(`${num} is a palindrome`)
-} else {
-    console.log(`${num} is not a palindrome`)
-}
+// if (num == reverseNumString){
+//     console.log(`${num} is a palindrome`)
+// } else {
+//     console.log(`${num} is not a palindrome`)
+// }
+
+
+
+
+
+//ACTIVITY 6
+
+
+// let time = 9;
+// let placeOfWork = "Manchester"
+// let townOfHome = "Sthelens"
+
+// if (time == 8){
+//   console.log(`I am commuting to work in ${placeOfWork}`);
+// } else if (time == 7){
+//   console.log(`Im home in ${townOfHome}`);
+// } else if (time == 9){
+//   console.log(`Im at work in ${placeOfWork}`)
+// } else {
+//   console.log(`If its between 9 and 5, I am at work in ${placeOfWork}. Otherwise, I'm at home in ${townOfHome}`);
+// }
+
+
+//SCTIVITY 7
+
+
+// let string = 'lkdjsgfiudgfkdishfsdkiohfeoif4ruihfrvubndcknjd';
+// let vowelArr = ['a', 'e', 'i', 'o', 'u'];
+// let highestIndex =0;
+// for (let i = 0; i < vowelArr.length; i++){
+//     index = string.lastIndexOf(vowelArr[i]);
+// 
+// if (index >= highestIndex ){
+//      highestIndex = index;
+//      lastVowel = vowelArr[i];
+// }
+// }
